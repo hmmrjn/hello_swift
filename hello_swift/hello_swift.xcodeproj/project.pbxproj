@@ -11,6 +11,7 @@
 		BFA604C722C4C63E003EDC6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA604C622C4C63E003EDC6C /* ViewController.swift */; };
 		BFA604CC22C4C63F003EDC6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA604CB22C4C63F003EDC6C /* Assets.xcassets */; };
 		BFA604CF22C4C63F003EDC6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA604CD22C4C63F003EDC6C /* LaunchScreen.storyboard */; };
+		BFEDB68B22C4CD480060DC96 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFEDB68A22C4CD480060DC96 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		BFA604CB22C4C63F003EDC6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFA604CE22C4C63F003EDC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFA604D022C4C63F003EDC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFEDB68A22C4CD480060DC96 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				BFA604C422C4C63E003EDC6C /* AppDelegate.swift */,
 				BFA604C622C4C63E003EDC6C /* ViewController.swift */,
+				BFEDB68A22C4CD480060DC96 /* ViewController.xib */,
 				BFA604CB22C4C63F003EDC6C /* Assets.xcassets */,
 				BFA604CD22C4C63F003EDC6C /* LaunchScreen.storyboard */,
 				BFA604D022C4C63F003EDC6C /* Info.plist */,
@@ -120,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFA604CF22C4C63F003EDC6C /* LaunchScreen.storyboard in Resources */,
+				BFEDB68B22C4CD480060DC96 /* ViewController.xib in Resources */,
 				BFA604CC22C4C63F003EDC6C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
