@@ -25,6 +25,9 @@
                     <rect key="frame" x="186" y="483" width="43" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" title="Modal"/>
+                    <connections>
+                        <action selector="modalButtonDidTap" destination="-1" eventType="touchUpInside" id="SNv-5m-pdr"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0f0-tF-rJl">
                     <rect key="frame" x="169" y="411" width="73" height="23"/>

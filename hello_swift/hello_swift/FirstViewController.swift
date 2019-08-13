@@ -19,5 +19,12 @@ class FirstViewController: UIViewController {
         navigationController?.pushViewController(SecondViewController(), animated: true)
       
     }
+    
+    @IBAction func modalButtonDidTap() {
+        print("butonDidTap")
+        present(UINavigationController(rootViewController: ModalViewController()),
+                animated: true,
+                completion: nil)
+    }
 
 }
