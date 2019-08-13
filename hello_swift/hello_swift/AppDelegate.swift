@@ -17,9 +17,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         let window = UIWindow(frame: UIScreen.main.bounds)
         // 画面遷移はUINavigationControllerでラップする
-        window.rootViewController = UINavigationController(rootViewController: FirstViewController())
+        // window.rootViewController = UINavigationController(rootViewController: FirstViewController())
         window.makeKeyAndVisible()
         self.window = window
+        let firstView = UINavigationController(rootViewController: FirstViewController())
+        let secondView = UINavigationController(rootViewController: SecondViewController())
+        firstView.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0) // tagは謎
+        secondView.tabBarItem = UITabBarItem(title: "second", image: nil, tag: 1)
+        let tabBarController = UITabBarController()
+        tabBarController.viewControllers = [
+            firstView,
+            secondView
+        ]
+        window.rootViewController = tabBarController
         // Override point for customization after application launch.
         return true
     }
