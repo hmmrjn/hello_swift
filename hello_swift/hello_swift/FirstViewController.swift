@@ -15,6 +15,8 @@ class FirstViewController: UIViewController {
     
     @objc func navigationButtonDidTap() {
         print("navigationButtonDidTap")
+        
+        navigationController?.pushViewController(SecondViewController(), animated: true)
       
     }
 
