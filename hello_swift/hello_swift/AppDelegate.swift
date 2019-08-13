@@ -16,7 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         let window = UIWindow(frame: UIScreen.main.bounds)
-        window.rootViewController = ViewController()
+        // 画面遷移はUINavigationControllerでラップする
+        window.rootViewController = UINavigationController(rootViewController: FirstViewController())
         window.makeKeyAndVisible()
         self.window = window
         // Override point for customization after application launch.
